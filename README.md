@@ -10,7 +10,7 @@
 </p>
 
 <hr/>
-DevFlow 是一套基于 SpringCloud 的微服务研发协作平台，旨在帮助开发者高效管理项目全生命周期。项目聚焦于技术深度与实践落地，适合作为全栈能力提升的实战案例。
+Pmhub 是一套基于 SpringCloud 的微服务研发协作平台，旨在帮助开发者高效管理项目全生命周期。项目聚焦于技术深度与实践落地，适合作为全栈能力提升的实战案例。
 
 ## 项目亮点
 
@@ -22,9 +22,6 @@ DevFlow 是一套基于 SpringCloud 的微服务研发协作平台，旨在帮�
 
 ## 快速开始
 
-```bash
-# 克隆项目
-git clone https://github.com/yourusername/devflow.git
 
 # 微服务启动示例
 cd devflow
@@ -47,13 +44,13 @@ nohup java -jar devflow-gateway/target/*.jar &
 ## 功能模块
 
 ```
-devflow
-├── devflow-gateway       # API 网关
-├── devflow-auth          # 统一认证中心
-├── devflow-project       # 项目管理服务
-├── devflow-workflow      # 流程引擎服务
-├── devflow-monitor       # 监控告警中心
-└── devflow-ui           # Vue3 前端工程
+Pmhub
+├── Pmhub-gateway       # API 网关
+├── Pmhub-auth          # 统一认证中心
+├── Pmhub-project       # 项目管理服务
+├── Pmhub-workflow      # 流程引擎服务
+├── Pmhub-monitor       # 监控告警中心
+└── Pmhub-ui           # Vue3 前端工程
 ```
 
 ## 本地部署
